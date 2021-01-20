@@ -1,3 +1,18 @@
+@font-face {
+    font-family: 'Raleway';
+    font-style: normal;
+    font-weight: normal;
+    src: local('Raleway'), url('font/Raleway-SemiBold.ttf') format('ttf');
+    }
+
+@font-face{
+    font-family: 'MPLUSRounded1c-Bold';
+    font-style: normal;
+    font-weight: normal;
+    src: local('MPlusRounded'), url('font/MPLUSRounded1c-Bold.ttf') format('ttf');
+}
+
+
 body button{
     width: 170px;
     height: 41px;
@@ -5,8 +20,13 @@ body button{
     background-color: #4343A6;
     color: #FFFFFF;
 }
-
+h1,h2,h3,h4,h5{
+    font-family: 'MPLUSRounded', sans-serif;
+    font-size: 18px;
+}
 body{
+    font-family: 'Raleway';
+    font-size: 12px;
     align-items: center;
 }
 
@@ -21,7 +41,11 @@ header img{
     height: 36px;
     margin-left: 20px;
 }
-
+figure{
+    align-items: center;
+    vertical-align: middle;
+    text-align: center;
+}
 .logo{
     display: flex;
     flex-direction: row;
