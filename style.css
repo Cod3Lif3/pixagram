@@ -34,12 +34,12 @@ body{
 header{
     display: flex;
     flex-direction: row;
-    justify-content: space-between;
+    justify-content: center;
+    align-items: center;
 }
 header img{
     width: 36px;
     height: 36px;
-    margin-left: 20px;
 }
 figure{
     align-items: center;
@@ -49,13 +49,16 @@ figure{
 .logo{
     display: flex;
     flex-direction: row;
+    margin-right: 100px;
 }
 
 .P{
     color: #F8B0B6;
+    font-size:60px ;
 }
 .X{
     color: #4343A6;
+    font-size: 60px;
 }
 
 nav{
@@ -66,16 +69,14 @@ nav{
     display: flex;
     flex-direction: column;
     vertical-align: middle;
-    margin-right: 20px;
 }
- 
-
 main{
     margin-right: 36px;
     margin-left:36px;
     display: flex;
     flex-direction: column;
     align-items: center;
+    justify-content: center;
 }
 
 main img{
@@ -126,11 +127,20 @@ main img{
 }
 .unmissable{
     display: flex;
-    flex-direction: row;
-    flex-wrap: wrap;
-    align-items: center;
-    justify-content: center;
+    flex-direction: column;
     margin-bottom: 30px;
+}
+
+.unmissable p{
+    max-width: 174px;
+    max-height: 74px;
+    margin-left: 11px;
+}
+
+.unmissable div{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
 }
 .cadre{
     float: left;
@@ -149,7 +159,7 @@ main img{
 
 .fid{
     position: absolute;
-    top: 2153px;
+    top: 2083px;
 }
 
 .join-us{
@@ -168,11 +178,16 @@ main img{
     size: 2px;
     width: 295px;
 }
-
+.made{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
 .france{
     width: 30px;
     height: 30px;
-    float: right;
+    margin-left: 20px;
 }
 
 .network img{
