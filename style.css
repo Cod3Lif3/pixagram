@@ -179,7 +179,7 @@ main img{
 }
 
 .join-us hr{
-    size: 2px;
+    resize: 2px;
     width: 295px;
 }
 .made{
