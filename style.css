@@ -30,6 +30,10 @@ body{
     align-items: center;
 }
 
+header a{
+    text-decoration: none;
+}
+
 
 header{
     display: flex;
